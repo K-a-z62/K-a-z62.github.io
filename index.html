@@ -4,12 +4,67 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>KAZUHISAONO's profile</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    			<a class="navbar-brand" href="#">KAZUHISAONO's profile</a>
+    		</div>
+		
+    		<div class="collapse navbar-collapse" id="navbarEexample">
+    			<ul class="nav navbar-nav">
+    				<li class="active"><a href="#">HOME</a></li>
+    				<li><a href="#">アプリ1</a></li>
+    				<li><a href="#">アプリ2</a></li>
+    			</ul>
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#">アプリ3</a></li>
+    				<li><a href="#">アプリ4</a></li>
+    			</ul>
+    		<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="検索キーワード">
+				</div>
+				<button type="submit" class="btn btn-default">検索</button>
+			</form>
+    		</div>
+    	</div>
+    </nav>
+    
+        </header>
+        <div class="container">
+        <img src="top.png"/>
+        </div>
+        
+        <div class="container">
+             <div class="col-sm-3 hidden-xs" style="background:pink;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Main</div>
+             <div class="col-sm-6 col-xs-6" style="background:green;"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>Main</div>
+             <div class="col-sm-3 col-xs-6" style="background:blue;"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>side3</div>
+         </div>
+            <section class="container">
+                <h2>About</h2>
+                <h3>自己紹介</h3>
+                <p>神奈川県横浜市出身</p>
+            <h3>リンク</h3>
+            <ul>
+                <li><a href="" target="_blank">FACEBOOK</a></li>
+                <li><a href="" target="_blank">TWITTER</a></li>
+            </ul>
+            </section>
+            <footer class="container">
+                <p>KAZUHISAONO'S profile;2015 </p> 
+            </footer>
+            
+        </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
